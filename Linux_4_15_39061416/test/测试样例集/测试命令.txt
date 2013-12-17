@@ -1,0 +1,15 @@
+ls
+cf test.txt 1500
+ls
+mkdir testdir
+ls
+cd testdir
+ls
+cd .
+cd ..
+ls
+cf test.txt 1500//ÖØ¸´£¬ÅĞ¶Ï´íÎó
+df test.txt
+ls
+rmdir testdir
+ls

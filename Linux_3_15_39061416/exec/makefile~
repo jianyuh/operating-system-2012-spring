@@ -1,0 +1,18 @@
+all : scheduler enq deq stat a b c
+scheduler:scheduler.h scheduler.c 
+	gcc -o scheduler scheduler.c 
+enq:	scheduler.h	enq.c
+	gcc -o enq enq.c
+deq:	scheduler.h	enq.c
+	gcc -o deq deq.c
+stat:	scheduler.h	enq.c
+	gcc -o stat stat.c
+a	:a.c
+	gcc -o a a.c
+b	:b.c
+	gcc -o b b.c
+c	:c.c
+	gcc -o c c.c
+
+clear:
+	rm scheduler enq deq stat a b c

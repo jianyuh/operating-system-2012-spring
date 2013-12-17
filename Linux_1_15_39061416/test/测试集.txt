@@ -1,0 +1,23 @@
+cd
+cd ..
+exit
+cat -l > lsfile
+cat < lsfile
+gedit &
+ls &
+ls | cat
+
+find /
+Ctrl+Z
+jobs
+find / | grep a
+Ctrl+Z
+jobs
+fg %2
+Ctrl+C
+jobs
+
+history > hist
+cat hist
+history | cat
+cat &
